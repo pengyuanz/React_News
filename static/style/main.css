@@ -1,0 +1,108 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration:none
+}
+.Container{
+  width: 100%; 
+  padding-top: 2.6rem; 
+  overflow: hidden;
+}
+.Nav_Container{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background: #df97a7fd;
+  overflow: auto;
+}
+.Nav_Container::-webkit-scrollbar{
+  display:none;
+}
+.Nav_Container ul{
+  width: 300%;
+}
+.Logo{
+  height: 1.5rem;
+  color: #7e4d4d
+}
+.Nav_Item{
+  float: left;
+  margin: .3rem .8rem;
+  font-size: 1rem;
+}
+.Nav_Item a{
+  color: rgb(182, 236, 209);  
+}
+.Banner_Container{
+  width: 100%;
+  position: relative;
+  overflow: hidden
+}
+
+.Banner_Wrapper{
+  position:relative;
+  overflow: hidden;
+  width: 300%
+}
+
+.Banner_Content{
+  float: left;
+  position: relative;
+  width: 33.3333%
+}
+.Banner_Img{
+  width: 100%;
+  height: 15rem;
+}
+.Banner_Title{
+  position: absolute;
+  color: #f8f8f8;
+  bottom: 5px;
+  left: 0px
+}
+.Content_Container{
+  padding-bottom: .8rem;
+  border-bottom:1px solid #eaeaea;
+  position: relative;  
+  margin: 1rem 1.2rem;  
+  overflow: hidden;
+}
+.Content_Wrapper{
+  overflow: hidden
+}
+.Content_Wrapper a{
+  color: #222222
+}
+.Content_img1{
+  width: 35%;
+  float: left
+}
+.Content_cont1{
+  width: 60%;
+  padding-top:1rem;
+  padding-left: 1rem;
+  float: left
+}
+.Content_cont2{
+  margin-bottom: .8rem;
+}  
+.Content_img2{
+  width: 32%;
+  margin-left:0.25%;
+  margin-right:0.25%
+}  
+.Article_Wrapper{
+  margin: 3%;
+  overflow: hidden
+}
+.Article_text{
+  line-height:1.6rem;
+  margin-bottom: 1rem;
+}
+.Article_img{
+  width: 95%;
+  margin-left:2.5%
+}
